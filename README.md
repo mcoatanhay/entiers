@@ -1,2 +1,2 @@
 # entiers
-Fonctions complémentaires pour l'ensemble des entiers
+Fonctions complémentaires pour les entiers

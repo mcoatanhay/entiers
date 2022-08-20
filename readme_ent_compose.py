@@ -1,6 +1,6 @@
 ﻿#!/usr/bin/python3
 # -*- coding: utf-8 -*-
-# Fichier: readme_incert_compose.py
+# Fichier: readme_ent_compose.py
 # Auteur: Marc COATANHAY
 
 """
@@ -10,14 +10,14 @@
 # Import des modules
 import mes_modules_path
 from repertoire import filerep
-import incert
+import ent
 import sys
 
 # Définitions constantes et variables globales
 filerep()
 file = open('readme.txt', 'w')
 sys.stdout = file
-help(incert)
+help(ent)
 file.close()
 sys.stdout = sys.__stdout__
 
